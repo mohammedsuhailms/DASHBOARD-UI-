@@ -290,3 +290,229 @@ dashboard_metrics.report_id → reports.report_id
 activity_logs.user_id → users.user_id
 
 This schema is suitable for a Dashboard UI project with Login, Registration, User Management, Notifications, Reports, Dashboard Analytics, and Settings modules.
+Page Layouts
+Description
+
+The page layouts define the overall structure and arrangement of elements across the application. A consistent layout improves navigation and user experience.
+
+Main Layout Components
+Header (Logo, User Profile, Notifications)
+Sidebar Navigation Menu
+Main Content Area
+Footer
+Layout Structure
+-------------------------------------------------
+| Header (Logo | Search | Notification | User) |
+-------------------------------------------------
+| Sidebar |                               |
+| Menu    |      Main Content Area        |
+|          |                               |
+|          |                               |
+-------------------------------------------------
+|                 Footer                  |
+-------------------------------------------------
+Features
+Responsive Design
+Fixed Navigation Sidebar
+Dashboard Cards
+Data Tables
+Charts and Reports Section
+2. UI Screens
+Login Screen
+Purpose
+
+Allows users to securely access the application.
+
+Components
+Email Field
+Password Field
+Login Button
+Forgot Password Link
+Register Link
+Registration Screen
+Purpose
+
+Allows new users to create an account.
+
+Components
+Full Name
+Email Address
+Password
+Confirm Password
+Register Button
+Dashboard Screen
+Purpose
+
+Displays important statistics and analytics.
+
+Components
+KPI Cards
+Charts
+Recent Activities
+Notifications
+Quick Actions
+User Management Screen
+Purpose
+
+Manage users within the application.
+
+Components
+User List
+Add User
+Edit User
+Delete User
+Search Users
+Reports Screen
+Purpose
+
+Display generated reports and analytics.
+
+Components
+Report List
+Download Report
+Filter Reports
+Analytics Charts
+Settings Screen
+Purpose
+
+Manage user preferences.
+
+Components
+Theme Selection
+Language Settings
+Security Settings
+Profile Update
+3. UI Prototype
+Description
+
+The UI Prototype was designed in Figma to visualize the user interface before development.
+
+Prototype Flow
+Login Page
+      ↓
+Dashboard
+      ↓
+User Management
+      ↓
+Reports
+      ↓
+Settings
+      ↓
+Logout
+Prototype Features
+Clickable Navigation
+Interactive Buttons
+Screen Transitions
+User Flow Simulation
+Benefits
+Early Design Validation
+Improved User Experience
+Faster Development Process
+4. Design Approval
+Objective
+
+To ensure the dashboard design meets business and user requirements before implementation.
+
+Review Criteria
+UI Consistency
+Color Scheme
+Typography
+Responsiveness
+Accessibility
+User Experience
+Approval Process
+Requirement Analysis
+        ↓
+Wireframe Design
+        ↓
+UI Mockup Creation
+        ↓
+Stakeholder Review
+        ↓
+Feedback Collection
+        ↓
+Final Approval
+Outcome
+
+The dashboard design was approved after usability review and design validation.
+
+5. React Project Setup
+Objective
+
+Initialize and configure the React application for dashboard development.
+
+Tools Used
+React.js
+React Router
+Axios
+Bootstrap / Material UI
+Node.js
+npm
+Project Structure
+src/
+│
+├── components/
+├── pages/
+│   ├── Login
+│   ├── Register
+│   ├── Dashboard
+│   ├── Reports
+│   └── Settings
+│
+├── services/
+├── hooks/
+├── assets/
+├── App.js
+└── index.js
+Installation Commands
+npx create-react-app dashboard-ui
+cd dashboard-ui
+
+npm install react-router-dom
+npm install axios
+npm install bootstrap
+Setup Completed
+React Environment Created
+Routing Configured
+Folder Structure Organized
+Required Packages Installed
+6. Login Module
+Objective
+
+Provide secure authentication for users.
+
+Features
+User Login
+Input Validation
+Error Handling
+Session Management
+Authentication API Integration
+Login Workflow
+User Enters Credentials
+          ↓
+Validate Inputs
+          ↓
+Send Request to Login API
+          ↓
+Authentication Success
+          ↓
+Redirect to Dashboard
+Input Fields
+Field	Type
+Email	Text
+Password	Password
+Validation Rules
+Email should be valid.
+Password cannot be empty.
+Incorrect credentials display error message.
+Expected Output
+Email: admin@gmail.com
+Password: ********
+
+Login Successful
+Redirecting to Dashboard...
+Benefits
+Secure Access Control
+User Authentication
+Improved Application Security
+Better User Experience
