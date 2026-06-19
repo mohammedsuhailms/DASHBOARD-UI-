@@ -516,3 +516,12 @@ Secure Access Control
 User Authentication
 Improved Application Security
 Better User Experience
+
+This project consists of the following modules:
+
+Login Module – Secure authentication system for user login using credentials.
+Registration Module – Allows new users to create an account with validation checks.
+Dashboard UI – Central interface to display key metrics, charts, and navigation options.
+Forms Completed – Functional forms for collecting and submitting user data.
+Data Listing – Displays stored data in tabular format with view, edit, and delete options.
+Frontend Review – Ensures UI responsiveness, consistency, and user-friendly design across all pages.
